@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Love Confession</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fprophetic-in-2023--4151824650137745%2F&psig=AOvVaw3_9SA0Fw4x7OHy8JCBv0B4&ust=1754399984561000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDp1cCf8Y4DFQAAAAAdAAAAABAE') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 90%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .fade-in-text {
+      font-size: 1.4em;
+      color: black;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    .button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      .fade-in-text {
+        font-size: 1.2em;
+      }
+      .button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <p class="fade-in-text">
+      I love you so much Mina, do you love me back the same way?
+    </p>
+    <button class="button" onclick="location.href='yes.html'">Yes</button>
+    <button class="button" onclick="location.href='no.html'">No</button>
+  </div>
+</body>
+</html>
